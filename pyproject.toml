@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "persona-memory"
+version = "0.1.0"
+description = "Layered persona and long-term memory context assembly"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+persona-memory = "persona_memory.cli:entrypoint"
+
+[tool.setuptools.packages.find]
+where = ["src"]
