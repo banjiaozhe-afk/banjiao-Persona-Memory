@@ -1,0 +1,56 @@
+# 密钥与本地配置
+.env
+.env.*
+!.env.example
+cookies/
+*.pem
+*.key
+
+# Python 依赖与缓存
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# 生成物与本地数据
+output/
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# 大文件与模型
+*.onnx
+*.pth
+*.ckpt
+*.safetensors
+*.zip
+
+# 图片、音频与视频
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.mp4
+*.mov
+*.mkv
+*.webm
+
+# 编辑器、系统与工具自身
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.workbuddy/
